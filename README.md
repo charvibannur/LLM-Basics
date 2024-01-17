@@ -33,6 +33,7 @@ Yet to fix a few things. Will update soon :)
 
 ## Falcon with QLoRA
 Fine tuning Falcon-7B with QLoRA with an additional SFTTrainer. Ran out of disk space before it could complete one epoch. Attaching the loss curve below.
+
 ![image](https://github.com/charvibannur/LLM-Basics/assets/77164319/ad1d1722-965b-4f4c-acce-2afe6fd6e02d)
 
 * [SFTTrainer](https://huggingface.co/docs/trl/sft_trainer): Supervised fine-tuning (or SFT for short) is a crucial step in RLHF. SFTTrainer provides an easy-to-use API to create SFT models and train them with few lines of code on the same dataset.
