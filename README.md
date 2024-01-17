@@ -30,3 +30,12 @@ colab link: [https://colab.research.google.com/drive/1w2xrCzgQ7PejGULuiaOY_mQfZK
 * Colab Link: [https://drive.google.com/file/d/1rOf5DO0L4WYm1VNzp04gB_0MjOF0pLoG/view?usp=sharing](https://drive.google.com/file/d/1rOf5DO0L4WYm1VNzp04gB_0MjOF0pLoG/view?usp=sharing)
 
 Yet to fix a few things. Will update soon :)
+
+## Falcon with QLoRA
+Fine tuning Falcon-7B with QLoRA with an additional SFTTrainer. Ran out of disk space before it could complete one epoch. Attaching the loss curve below.
+![image](https://github.com/charvibannur/LLM-Basics/assets/77164319/ad1d1722-965b-4f4c-acce-2afe6fd6e02d)
+
+* [SFTTrainer](https://huggingface.co/docs/trl/sft_trainer): Supervised fine-tuning (or SFT for short) is a crucial step in RLHF. SFTTrainer provides an easy-to-use API to create SFT models and train them with few lines of code on the same dataset.
+* Dataset: [openassistant-guanaco](https://huggingface.co/datasets/timdettmers/openassistant-guanaco?row=0)
+* Colab Link: [https://colab.research.google.com/drive/1P5uOvZPGqic21I9diYaB3UGwUHoK37Yh?usp=sharing](https://colab.research.google.com/drive/1P5uOvZPGqic21I9diYaB3UGwUHoK37Yh?usp=sharing)
+
